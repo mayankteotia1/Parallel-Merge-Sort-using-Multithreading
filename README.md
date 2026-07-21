@@ -25,8 +25,8 @@ Verified against `std::sort` with 3,000 randomized trials (small arrays, heavy d
 ## Build & Run
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/mayankteotia1/Parallel-Merge-Sort-using-Multithreading.git
+cd Parallel-Merge-Sort-using-Multithreading
 g++ -std=c++17 -O2 -pthread main.cpp mergeSort.cpp parallelMergeSort.cpp -o parallel_sort
 ./parallel_sort
 ```
